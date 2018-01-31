@@ -1,11 +1,13 @@
 package J12;
 
+import java.io.File;
+import java.io.IOException;
+
 public class N1214 {
-	public static void main(String[] args) {
-		Runnable ziji=new Ziji();
-		Thread t1=new Thread(ziji);
-		Thread t2=new Thread(ziji);
-		t1.start();
-		t2.start();
+	public static void main(String[] args) throws IOException {
+	
+		File file=new File("E:\\sd.java");
+		//System.out.println(file.exists());
+		
 	}
 }
